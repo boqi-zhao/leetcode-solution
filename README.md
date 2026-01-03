@@ -65,6 +65,7 @@ python test.py
 python 0026_remove_duplicates_from_sorted_array/test.py
 ```
 
-## 已完成的题目
+## 题目列表
 
 - [x] 0026. Remove Duplicates from Sorted Array (删除有序数组中的重复项)
+- [ ] 0027. Remove Element (移除元素)
