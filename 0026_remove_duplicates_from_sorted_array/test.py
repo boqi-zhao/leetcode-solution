@@ -122,5 +122,8 @@ class TestRemoveDuplicates(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    # 支持命令行参数选择运行特定测试用例
+    # 例如: python test.py TestRemoveDuplicates.test_example1
+    # 或者: python test.py -k test_example1
+    unittest.main(verbosity=2)
 
