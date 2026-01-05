@@ -30,15 +30,6 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        d = dict()
-        for i in range(len(nums)):
-            if not d.get(nums[i]):
-                d[nums[i]] = 1
-            else:
-                d[nums[i]] += 1
-        
-        for k, v in d.items():
-            if v > len(nums) / 2:
-                return k
+        pass
 
 
