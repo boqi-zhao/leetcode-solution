@@ -29,3 +29,9 @@
 | ✅ | 189 | [轮转数组](https://leetcode.cn/problems/rotate-array/) | [0189_rotate_array](./0189_rotate_array/) |
 | ✅ | 238 | [除了自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/) | [0238_product_of_array_except_self](./0238_product_of_array_except_self/) |
 | ✅ | 41 | [缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/) | [0041_first_missing_positive](./0041_first_missing_positive/) |
+
+## 动态规划
+
+| 状态 | 题号 | 题目 | 目录 |
+| :---: | ---: | --- | --- |
+| ⬜ | 70 | [爬楼梯](https://leetcode.cn/problems/climbing-stairs/) | [0070_climbing_stairs](./0070_climbing_stairs/) |
