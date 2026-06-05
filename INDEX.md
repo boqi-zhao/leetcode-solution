@@ -35,3 +35,4 @@
 | 状态 | 题号 | 题目 | 目录 |
 | :---: | ---: | --- | --- |
 | ⬜ | 70 | [爬楼梯](https://leetcode.cn/problems/climbing-stairs/) | [0070_climbing_stairs](./0070_climbing_stairs/) |
+| ⬜ | 118 | [杨辉三角](https://leetcode.cn/problems/pascals-triangle/) | [0118_pascals_triangle](./0118_pascals_triangle/) |
