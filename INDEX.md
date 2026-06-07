@@ -36,4 +36,5 @@
 | :---: | ---: | --- | --- |
 | ⬜ | 70 | [爬楼梯](https://leetcode.cn/problems/climbing-stairs/) | [0070_climbing_stairs](./0070_climbing_stairs/) |
 | ⬜ | 118 | [杨辉三角](https://leetcode.cn/problems/pascals-triangle/) | [0118_pascals_triangle](./0118_pascals_triangle/) |
-| ⬜ | 198 | [打家劫舍](https://leetcode.cn/problems/house-robber/) | [0198_house_robber](./0198_house_robber/) |
+| ✅ | 198 | [打家劫舍](https://leetcode.cn/problems/house-robber/) | [0198_house_robber](./0198_house_robber/) |
+| ⬜ | 279 | [完全平方数](https://leetcode.cn/problems/perfect-squares/) | [279_perfect_squares](./279_perfect_squares/) |
