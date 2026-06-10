@@ -38,6 +38,7 @@
 | 118 | [杨辉三角](https://leetcode.cn/problems/pascals-triangle/) | [0118_pascals_triangle](./0118_pascals_triangle/) |
 | 139 | [单词拆分](https://leetcode.cn/problems/word-break/) | [0139_word_break](./0139_word_break/) |
 | 198 | [打家劫舍](https://leetcode.cn/problems/house-robber/) | [0198_house_robber](./0198_house_robber/) |
+| 152 | [乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/) | [0152_maximum_product_subarray](./0152_maximum_product_subarray/) |
 | 279 | [完全平方数](https://leetcode.cn/problems/perfect-squares/) | [0279_perfect_squares](./0279_perfect_squares/) |
 | 300 | [最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/) | [0300_longest_increasing_subsequence](./0300_longest_increasing_subsequence/) |
 | 322 | [零钱兑换](https://leetcode.cn/problems/coin-change/) | [0322_coin_change](./0322_coin_change/) |
