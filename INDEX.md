@@ -30,6 +30,12 @@
 | 238 | [除了自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/) | [0238_product_of_array_except_self](./0238_product_of_array_except_self/) |
 | 41 | [缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/) | [0041_first_missing_positive](./0041_first_missing_positive/) |
 
+## 栈
+
+| 题号 | 题目 | 目录 |
+| ---: | --- | --- |
+| 32 | [最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/) | [0032_longest_valid_parentheses](./0032_longest_valid_parentheses/) |
+
 ## 动态规划
 
 | 题号 | 题目 | 目录 |
