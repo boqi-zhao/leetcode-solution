@@ -56,3 +56,9 @@
 | 300 | [最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/) | [0300_longest_increasing_subsequence](./0300_longest_increasing_subsequence/) |
 | 322 | [零钱兑换](https://leetcode.cn/problems/coin-change/) | [0322_coin_change](./0322_coin_change/) |
 | 416 | [分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/) | [0416_partition_equal_subset_sum](./0416_partition_equal_subset_sum/) |
+
+## 字串
+
+| 题号 | 题目 | 目录 |
+| ---: | --- | --- |
+| 560 | [和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/) | [0560_subarray_sum_equals_k](./0560_subarray_sum_equals_k/) |
