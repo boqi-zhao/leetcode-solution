@@ -38,6 +38,12 @@
 | 238 | [除了自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/) | [0238_product_of_array_except_self](./0238_product_of_array_except_self/) |
 | 41 | [缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/) | [0041_first_missing_positive](./0041_first_missing_positive/) |
 
+## 矩阵
+
+| 题号 | 题目 | 目录 |
+| ---: | --- | --- |
+| 73 | [矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/) | [0073_set_matrix_zeroes](./0073_set_matrix_zeroes/) |
+
 ## 栈
 
 | 题号 | 题目 | 目录 |
