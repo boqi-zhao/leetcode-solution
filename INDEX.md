@@ -53,6 +53,12 @@
 | ---: | --- | --- |
 | 32 | [最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/) | [0032_longest_valid_parentheses](./0032_longest_valid_parentheses/) |
 
+## 链表
+
+| 题号 | 题目 | 目录 |
+| ---: | --- | --- |
+| 160 | [相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/) | [0160_intersection_of_two_linked_lists](./0160_intersection_of_two_linked_lists/) |
+
 ## 动态规划
 
 | 题号 | 题目 | 目录 |
