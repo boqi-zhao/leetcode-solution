@@ -1,0 +1,115 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+调试脚本 - 可以单独运行和调试单个测试用例
+使用方法：
+1. 直接在 IDE 中运行此文件（可以打断点）
+2. 或者命令行运行：python debug.py
+3. 修改下面的 test_case 变量来选择要调试的测试用例
+"""
+
+from solution import Solution, ListNode
+
+
+def build_cycled_list(values, pos):
+    """根据列表和 pos 构建带环或不带环的单链表，返回 (head, nodes)"""
+    if not values:
+        return None, []
+    nodes = [ListNode(value) for value in values]
+    for i in range(len(nodes) - 1):
+        nodes[i].next = nodes[i + 1]
+    if pos >= 0:
+        nodes[-1].next = nodes[pos]
+    return nodes[0], nodes
+
+
+def test_example1():
+    """测试示例 1"""
+    solution = Solution()
+    values = [3, 2, 0, -4]
+    pos = 1
+    head, nodes = build_cycled_list(values, pos)
+    expected = nodes[1]
+
+    # 在这里打断点调试
+    result = solution.detectCycle(head)
+
+    print(f"输入: head = {values}, pos = {pos}")
+    print(f"输出: result = {result.val if result else None}")
+    print(f"期望: expected = {expected.val if expected else None}")
+    print(f"结果: {'✅ 通过' if result is expected else '❌ 失败'}")
+
+
+def test_example2():
+    """测试示例 2"""
+    solution = Solution()
+    values = [1, 2]
+    pos = 0
+    head, nodes = build_cycled_list(values, pos)
+    expected = nodes[0]
+
+    result = solution.detectCycle(head)
+
+    print(f"输入: head = {values}, pos = {pos}")
+    print(f"输出: result = {result.val if result else None}")
+    print(f"期望: expected = {expected.val if expected else None}")
+    print(f"结果: {'✅ 通过' if result is expected else '❌ 失败'}")
+
+
+def test_example3():
+    """测试示例 3"""
+    solution = Solution()
+    values = [1]
+    pos = -1
+    head, nodes = build_cycled_list(values, pos)
+    expected = None
+
+    result = solution.detectCycle(head)
+
+    print(f"输入: head = {values}, pos = {pos}")
+    print(f"输出: result = {result}")
+    print(f"期望: expected = {expected}")
+    print(f"结果: {'✅ 通过' if result is expected else '❌ 失败'}")
+
+
+def test_empty_list():
+    """测试边界情况：空链表"""
+    solution = Solution()
+    values = []
+    pos = -1
+    head, _ = build_cycled_list(values, pos)
+    expected = None
+
+    result = solution.detectCycle(head)
+
+    print(f"输入: head = {values}, pos = {pos}")
+    print(f"输出: result = {result}")
+    print(f"期望: expected = {expected}")
+    print(f"结果: {'✅ 通过' if result is expected else '❌ 失败'}")
+
+
+def test_custom():
+    """自定义测试 - 在这里添加你自己的测试用例"""
+    solution = Solution()
+    values = [1, 2, 3]
+    pos = 2
+    head, nodes = build_cycled_list(values, pos)
+    expected = nodes[2]
+
+    result = solution.detectCycle(head)
+
+    print(f"输入: head = {values}, pos = {pos}")
+    print(f"输出: result = {result.val if result else None}")
+    print(f"期望: expected = {expected.val if expected else None}")
+    print(f"结果: {'✅ 通过' if result is expected else '❌ 失败'}")
+
+
+# 选择要运行的测试用例（修改这里来选择不同的测试）
+if __name__ == '__main__':
+    # 取消注释你想要运行的测试用例
+
+    test_example1()      # 运行示例 1
+    # test_example2()    # 运行示例 2
+    # test_example3()    # 运行示例 3
+    # test_empty_list()  # 空链表
+    # test_custom()      # 运行自定义测试
