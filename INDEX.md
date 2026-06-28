@@ -57,6 +57,7 @@
 
 | 题号 | 题目 | 目录 |
 | ---: | --- | --- |
+| 21 | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/) | [0021_merge_two_sorted_lists](./0021_merge_two_sorted_lists/) |
 | 141 | [环形链表](https://leetcode.cn/problems/linked-list-cycle/) | [0141_linked_list_cycle](./0141_linked_list_cycle/) |
 | 142 | [环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/) | [0142_linked_list_cycle_ii](./0142_linked_list_cycle_ii/) |
 | 206 | [反转链表](https://leetcode.cn/problems/reverse-linked-list/) | [0206_reverse_linked_list](./0206_reverse_linked_list/) |
