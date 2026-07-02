@@ -60,6 +60,7 @@
 | 2 | [两数相加](https://leetcode.cn/problems/add-two-numbers/) | [0002_add_two_numbers](./0002_add_two_numbers/) |
 | 21 | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/) | [0021_merge_two_sorted_lists](./0021_merge_two_sorted_lists/) |
 | 24 | [两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/) | [0024_swap_nodes_in_pairs](./0024_swap_nodes_in_pairs/) |
+| 25 | [K 个一组翻转链表](https://leetcode.cn/problems/reverse-nodes-in-k-group/) | [0025_reverse_nodes_in_k_group](./0025_reverse_nodes_in_k_group/) |
 | 141 | [环形链表](https://leetcode.cn/problems/linked-list-cycle/) | [0141_linked_list_cycle](./0141_linked_list_cycle/) |
 | 142 | [环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/) | [0142_linked_list_cycle_ii](./0142_linked_list_cycle_ii/) |
 | 206 | [反转链表](https://leetcode.cn/problems/reverse-linked-list/) | [0206_reverse_linked_list](./0206_reverse_linked_list/) |
